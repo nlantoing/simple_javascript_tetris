@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Yggdrasil tetris game assignment</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="app/index.js"></script>
+  </head>
+  <body>
+    <section class="game" id="native_canvas">
+      <div class="details">
+        <p class="level">level 1</p>
+        <p class="score">score 0</p>
+      </div>
+      <canvas id="tetris_canvas" width="100" height="150"></canvas>
+      <div class="commands">
+        <p>
+          <span class="key">SPACE</span>
+          <span class="command">Start</span>
+        </p>
+        <p>
+          <span class="key">&#8593;</span>
+          <span class="command">Flip</span>
+        </p>
+        <p>
+          <span class="key"> &#8592; &#8595; &#8594;</span>
+          <span class="command">Move</span>
+        </p>
+      </div>
+    </section>
+
+    <audio
+       src="assets/bonus_music.mp3"
+       style="display:hidden"
+       id="konamimusic"
+       />
+  </body>
+</html>

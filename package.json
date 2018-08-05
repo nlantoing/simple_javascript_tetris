@@ -1,0 +1,25 @@
+{
+  "name": "simple_tetris",
+  "version": "1.0.0",
+  "description": "Basic full javascript tetris game",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nlantoing/simple_javascript_tetris.git"
+  },
+  "keywords": [
+    "tetris",
+    "game"
+  ],
+  "author": "Nicolas Lantoing",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
